@@ -1,12 +1,12 @@
 # github-actions
 
 ```
-name: hello-world
+name: github-actions
 on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World!"
+        run: echo "BKL github-actions!"
 ```
